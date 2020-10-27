@@ -10,7 +10,6 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/video.mp4' autoPlay loop muted />
       <h1>Why do people decide to undertake businesses?</h1>
-      <p>by Santiago Carrillo</p>
       {/* <div className='hero-btns'>        <Button
           className='btns'
           buttonStyle='btn--outline'

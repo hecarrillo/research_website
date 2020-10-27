@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #242424;
+  background-color: #c7c7c9;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -160,4 +160,12 @@
 }
 
 @media screen and (max-width: 768px) {
+}
+
+.footer-logo{
+  display:inline-block;
+	height:130px;
+	margin:0 auto;
+	padding:0;
+	opacity:1;
 }
