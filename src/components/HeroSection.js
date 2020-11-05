@@ -5,11 +5,11 @@ import './HeroSection.css';
 import { FaTruckMoving } from 'react-icons/fa';
 import { FaBusAlt } from 'react-icons/fa';
 
-function HeroSection() {
+function HeroSection(inputText) {
   return (
     <div className='hero-container'>
       <video src='/videos/video.mp4' autoPlay loop muted />
-      <h1>Why do people decide to undertake businesses?</h1>
+      <h1>{inputText}</h1>
       {/* <div className='hero-btns'>        <Button
           className='btns'
           buttonStyle='btn--outline'
