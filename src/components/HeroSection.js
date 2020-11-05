@@ -5,11 +5,11 @@ import './HeroSection.css';
 import { FaTruckMoving } from 'react-icons/fa';
 import { FaBusAlt } from 'react-icons/fa';
 
-function HeroSection(inputText) {
+function HeroSection(textInput) {
   return (
     <div className='hero-container'>
       <video src='/videos/video.mp4' autoPlay loop muted />
-      <h1>{inputText}</h1>
+      <h1>{textInput.textInput}</h1>
       {/* <div className='hero-btns'>        <Button
           className='btns'
           buttonStyle='btn--outline'
