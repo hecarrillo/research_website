@@ -4,12 +4,11 @@ import Cards from '../Cards';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 
-let textInput = 'Why do people decide to undertake businesses?'
 
 function Home() {
   return (
     <>
-      <HeroSection inputText={textInput}/>
+      <HeroSection inputText={"Why do people decide to undertake businesses?"}/>
       <Cards />
       <Footer />
     </>
