@@ -1,6 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import HeroSection from '../HeroSection';
+import Cards from '../Cards';
+import Footer from '../Footer';
 
-export default function Introduction() {
-  return <h1 className='introduction'>Introduction</h1>;
+let textInput = 'Introduction';
+
+function Introduction() {
+  return (
+    <>
+      <HeroSection textInput={textInput}/>
+      <Cards />
+      <Footer />
+    </>
+  );
 }
+export default Introduction;

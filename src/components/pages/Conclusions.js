@@ -1,6 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import HeroSection from '../HeroSection';
+import Cards from '../Cards';
+import Footer from '../Footer';
 
-export default function Conclusions() {
-  return <h1 className='conclusions'>Conclusions</h1>;
+let textInput = 'Conclusions';
+
+function Conclusions() {
+  return (
+    <>
+      <HeroSection textInput={textInput}/>
+      <Cards />
+      <Footer />
+    </>
+  );
 }
+export default Conclusions;

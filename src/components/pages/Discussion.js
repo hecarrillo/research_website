@@ -1,7 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import HeroSection from '../HeroSection';
+import Cards from '../Cards';
+import Footer from '../Footer';
 
-export default function Discussion() {
-  return <h1 className='discussion'>Discussion</h1>;
+let textInput = 'Discussion';
+
+function Discussion() {
+  return (
+    <>
+      <HeroSection textInput={textInput}/>
+      <Cards />
+      <Footer />
+    </>
+  );
 }
-
+export default Discussion;
