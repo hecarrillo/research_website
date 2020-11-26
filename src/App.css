@@ -16,29 +16,20 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+p, .body > ol{
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3em;
+  font-stretch: semi-expanded;
+  text-align: justify;
+  letter-spacing: 1px;
+  padding-top: 2em;
+  line-height: 2rem;
 }
 
-.products {
-  background-image: url('/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.body > h1, h2 {
+  text-align: center;
 }
-
-.sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.body{
+  padding: 4rem;
+  background: #fff;
 }
