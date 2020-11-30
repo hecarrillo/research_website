@@ -5,31 +5,66 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.services,
-.products,
-.sign-up {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-p, .body > ol{
-  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.3em;
+.body p{
+  font-family: 'Raleway', 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em;
   font-stretch: semi-expanded;
   text-align: justify;
-  letter-spacing: 1px;
   padding-top: 2em;
   line-height: 2rem;
 }
-
+.body li{
+  font-family: 'Raleway', 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+  font-stretch: semi-expanded;
+  text-align: justify;
+  padding-top: 2em;
+  line-height: 2rem;
+}
 .body > h1, h2 {
   text-align: center;
+  margin-top: 1em;
 }
 .body{
   padding: 4rem;
+  padding-top: 2rem;
   background: #fff;
+}
+
+.graph{
+  display: block;
+  margin: 2em auto;
+  width: 50%;
+}
+
+#secondarysources{
+  margin-bottom: 1em;
+}
+
+p.imgfooter{
+  text-align: center;
+  font-size: .7em;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.grid{
+  display: grid;
+  grid-template: repeat(5, 1fr) / 1fr 3fr;
+  row-gap: 2em;
+}
+.box p{
+  margin: auto;
+  padding: auto;
+  font-size: 1em;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.sourcetitle h4{
+  text-align: center;
+  margin: auto;
+  margin-top: 50%;
+}
+.box{
+  border: 1px black solid;
 }
