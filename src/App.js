@@ -12,7 +12,9 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <header>
+      <Navbar />
+      </header>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/introduction' component={Introduction} />

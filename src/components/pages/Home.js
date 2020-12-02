@@ -9,7 +9,7 @@ const fileName = 'video.mp4';
 function Home() {
   return (
     <>
-
+    <main>
       <HeroSection textInput={textInput} fileName={fileName}/>
       <div className='body'>
         <h1>Abstract</h1>
@@ -33,6 +33,7 @@ function Home() {
           series, social networks, etc. Surveys on the subject are 
           mentioned and demonstrated as well as an analysis of results on the subject.</p>
       </div>
+      </main>
       <Footer />
     </>
   );

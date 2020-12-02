@@ -9,6 +9,7 @@ let fileName = 'IntroductionHero.mp4';
 function Introduction() {
   return (
     <>
+    <main>
       <HeroSection textInput={textInput} fileName={fileName}/>
       <div className='body'>
         <p>To begin this work, it is important 
@@ -43,7 +44,8 @@ function Introduction() {
             perseverance and discipline.</li>
         </ol>
       </div>
-      <Footer />
+    </main>
+    <Footer />
     </>
   );
 }

@@ -9,6 +9,7 @@ let fileName = 'ConclusionsHero.mp4';
 function Conclusions() {
   return (
     <>
+    <main>
       <HeroSection textInput={textInput} fileName={fileName}/>
       <div className='body'>
         <h1>Abstract</h1>
@@ -32,6 +33,7 @@ function Conclusions() {
           series, social networks, etc. Surveys on the subject are 
           mentioned and demonstrated as well as an analysis of results on the subject.</p>
       </div>
+      </main>
       <Footer />
     </>
   );

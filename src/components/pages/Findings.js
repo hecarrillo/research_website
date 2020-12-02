@@ -9,6 +9,7 @@ let fileName = 'FindingsHero.jpg';
 function Findings() {
   return (
     <>
+    <main>
       <HeroSection textInput={textInput} fileName={fileName}/>
       <div className='body'>
         <h2>Methodology</h2>
@@ -30,6 +31,7 @@ function Findings() {
           sources gives different responses to the research question, as 
           well as suggested profiles for the ideal entrepreneur.</p>
       </div>
+      </main>
       <Footer />
     </>
   );
