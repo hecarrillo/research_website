@@ -12,6 +12,7 @@ function Introduction() {
     <main>
       <HeroSection textInput={textInput} fileName={fileName}/>
       <div className='body'>
+        <h1>Background information and research purpose</h1>
         <p>To begin this work, it is important 
           to be clear about who an entrepreneur is, 
           and according to the RAE, an entrepreneur is one 

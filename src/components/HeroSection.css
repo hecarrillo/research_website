@@ -5,9 +5,6 @@
   position: fixed;
   z-index: -1;
 }
-h1{
-  text-align: center;
-}
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
@@ -24,14 +21,7 @@ h1{
   color: rgb(252, 249, 249);
   font-size: 100px;
   margin-top: -100px;
-}
-
-.hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
 .hero-btns {
@@ -57,10 +47,6 @@ h1{
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;
-  }
-
-  .hero-container > p {
-    font-size: 30px;
   }
 
   .btn-mobile {
