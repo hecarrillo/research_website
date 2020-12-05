@@ -1,31 +1,17 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
-import { FaTruckMoving } from 'react-icons/fa';
-import { FaBusAlt } from 'react-icons/fa';
 
-function HeroSection() {
-  return (
+function HeroSection(textInput) {
+  let vid = `/videos/${textInput.fileName}`;
+  let fileType = vid.toString().endsWith("mp4");
+  return(
     <div className='hero-container'>
-      <video src='/videos/video.mp4' autoPlay loop muted />
-      <h1>Why do people decide to undertake businesses?</h1>
-      {/* <div className='hero-btns'>        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Productos
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          Contacto 
-        </Button>
-      </div> */}
+      {fileType
+      ? <video src={vid} autoPlay loop muted/>
+        :<img src={vid}/>
+      }
+      <h1>{textInput.textInput}</h1>
     </div>
   );
 }

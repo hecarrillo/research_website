@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import { FaWrench } from 'react-icons/fa';
 import { AiOutlineHome } from 'react-icons/ai'
 import './Navbar.css';
 
@@ -48,16 +47,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Methodology
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
+                to='/findings'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -66,23 +56,14 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/discussion'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Discussion
               </Link>
             </li>
-
-            <li>
-              <Link
-                to='/conclusions'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Conclusions
-              </Link>
-            </li>
+            
           </ul>
           {button && <Button buttonStyle='btn--outline'>Conclusions</Button>}
         </div>

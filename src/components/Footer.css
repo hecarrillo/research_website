@@ -169,3 +169,12 @@
 	padding:0;
 	opacity:1;
 }
+p{
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3em;
+  font-stretch: semi-expanded;
+  text-align: justify;
+  letter-spacing: 1px;
+  padding-top: 2em;
+  line-height: 2rem;
+}
