@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Introduction  from './components/pages/Introduction';
 import Findings from './components/pages/Findings';
 import Discussion from './components/pages/Discussion';
@@ -16,14 +16,14 @@ function App() {
       <Navbar />
       </header>
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route exact path='/' component={Home} />
           <Route path='/introduction' component={Introduction} />
           <Route path='/findings' component={Findings} />
           <Route path='/discussion' component={Discussion} />
           <Route path='/conclusions' component={Conclusions} />
-
         </Switch>
       </Router>
+ 
     </>
   );
 }
