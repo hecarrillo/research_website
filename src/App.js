@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       </header>
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/research_website' exact component={Home} />
           <Route path='/introduction' component={Introduction} />
           <Route path='/findings' component={Findings} />
           <Route path='/discussion' component={Discussion} />
