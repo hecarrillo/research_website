@@ -6,7 +6,7 @@ function Footer() {
     <footer>
     <div className='footer-container'>
       <img
-       src="../images/upLogo.png" className="footer-logo"
+       src="%PUBLIC_URL%/images/upLogo.png" className="footer-logo"
       />
     </div>
     </footer>

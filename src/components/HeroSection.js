@@ -3,7 +3,7 @@ import '../App.css';
 import './HeroSection.css';
 
 function HeroSection(textInput) {
-  let vid = `/videos/${textInput.fileName}`;
+  let vid = `%PUBLIC_URL%/videos/${textInput.fileName}`;
   let fileType = vid.toString().endsWith("mp4");
   return(
     <div className='hero-container'>

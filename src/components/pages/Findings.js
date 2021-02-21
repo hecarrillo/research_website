@@ -42,7 +42,7 @@ function Findings() {
           this activity when in financial stability, but also that the main 
           motivation for starting an own business was for independence, 
           as we can clearly see en the graph below:</p>
-        <img src='../../images/A.jpg' className='graph'/>
+        <img src='%PUBLIC_URL%/images/A.jpg' className='graph'/>
         <p className='imgfooter'>(Motivations for entrepreneuring 
         according to financial state).</p>
         <p>It is not surprising that people that undertook business when in 
@@ -52,7 +52,7 @@ function Findings() {
           This information suggests that an entrepreneur does not really need to 
           have economic knowledge, but this is instead a tool for doing a better 
           job. This last claim is backed by the following graph:</p>
-        <img src='../../images/B.jpg' className='graph'/>
+        <img src='%PUBLIC_URL%/images/B.jpg' className='graph'/>
         <p className='imgfooter'>(Thoughts on the necessity of economy 
         for entrepreneuring according to the motivations for entrepreneuring).</p>
         <p>At first glance, it can be seen that most groups are divided in 
@@ -72,15 +72,15 @@ function Findings() {
           another concordance between what entrepreneurs live or have lived, 
           and what the non-entrepreneurs think of the entrepreneurs. Having said 
           this, we can observe this tendency in the following graphs: </p>
-        <img src='../../images/C.jpg' className='graph'/>        
+        <img src='%PUBLIC_URL%/images/C.jpg' className='graph'/>        
         <p className='imgfooter'>(Entrepreneurs’ reasons for starting a business)</p>
-        <img src='../../images/D.jpg' className='graph'/>
+        <img src='%PUBLIC_URL%/images/D.jpg' className='graph'/>
         <p className='imgfooter'>(Non-entrepreneurs’ guesses on the reasons for starting a business)</p>
         <p>Not only is there a concordance on this information, but also the ideals of 
           entrepreneurship between entrepreneurs and non-entrepreneurs; therefore, 
           the following graph gives an idea of the general skills and conception of 
           what entrepreneurship is:</p>
-        <img src='../../images/E.jpg' className='graph'/>
+        <img src='%PUBLIC_URL%/images/E.jpg' className='graph'/>
         <p className='imgfooter'>(Skills of the ideal entrepreneur)</p>
         <p>It should be clarified that this was an open question, but the answers were 
         categorized as above. There is a difference between initiative and motivation, 

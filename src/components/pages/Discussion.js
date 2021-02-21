@@ -62,7 +62,7 @@ function Discussion() {
           employees and not as entrepreneurs. Such deductions open up new possibilities 
           for future research aimed at explaining the differences in entrepreneurship 
           by entity from the institutional level. This can be seen in the next graph:</p>
-        <img src='../../images/AB.jpg' className='graph'/>
+        <img src='%PUBLIC_URL%/images/AB.jpg' className='graph'/>
         <p className='imgfooter'>(Distribution of the young entrepreneurial population 
         in Mexico according to state, 2016. Source: INEGI).</p>
         <p>Knowing that states affect entrepreneurship and that there is a higher percentage 
