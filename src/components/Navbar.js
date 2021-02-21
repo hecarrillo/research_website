@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/research_website' className='navbar-logo' onClick={closeMobileMenu}>
             <AiOutlineHome/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
