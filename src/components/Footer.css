@@ -164,7 +164,7 @@
 
 .footer-logo{
   display:inline-block;
-	height:130px;
+	height:100px;
 	margin:0 auto;
 	padding:0;
 	opacity:1;
@@ -177,4 +177,9 @@ p{
   letter-spacing: 1px;
   padding-top: 2em;
   line-height: 2rem;
+}
+@media screen and (max-width: 425px) {
+  .footer-logo{
+    height:70px;
+  }
 }

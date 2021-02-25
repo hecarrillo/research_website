@@ -65,6 +65,14 @@ p.imgfooter{
   margin: auto;
   margin-top: 50%;
 }
-.box{
-  border: 1px black solid;
+@media screen and (max-width: 820px) {
+  .grid{
+    display: initial;
+  }
+  .sourcetitle h4{
+    margin: 3em auto 0 auto;
+  }
+  .graph{
+    width: 70%;
+  }
 }
