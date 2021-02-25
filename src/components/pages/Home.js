@@ -22,7 +22,7 @@ function Home() {
           entrepreneurship and, in consequence, fail to carry out their ideas.<br/>
           Entrepreneurship ranges from selling candies at your school to creating a product 
           capable of beating all competition and selling it to multi-billion dollar companies. According 
-          to the RAE, the term entrepreneuring means: "to undertake and start a work, a business, 
+          to the RAE (Royal Spanish Academy), the term entrepreneuring means: "to undertake and start a work, a business, 
           an endeavour, especially if it contains certain difficulty or danger".<br/>
           Here, you will meet the factors by which people decide to be entrepreneurs, as well as 
           references from books, series, and social networks on the matter. Surveys on the subject 
