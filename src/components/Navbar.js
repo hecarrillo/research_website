@@ -63,7 +63,15 @@ function Navbar() {
                 Discussion
               </Link>
             </li>
-            
+            <li className='nav-item conclusions'>
+              <Link
+                to='/conclusions'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Conclusions
+              </Link>
+            </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>Conclusions</Button>}
         </div>
