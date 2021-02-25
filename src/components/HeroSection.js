@@ -8,7 +8,7 @@ function HeroSection(textInput) {
   return(
     <div className='hero-container'>
       {fileType
-      ? <video src={vid} autoplay loop muted/>
+      ? <video src={vid} autoPlay loop muted/>
         :<img src={vid}/>
       }
       <h1>{textInput.textInput}</h1>
